@@ -1,0 +1,16 @@
+#quizcontainer {
+    background-color: yellow;
+    height: 400px;
+}
+
+.correct {
+    background-color: blue;
+}
+
+#stopwatch {
+    font-size: 50px;
+}
+
+#updates {
+    font-size: 50px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TriviaGame</title>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+
+    <div class="container col-sm-10 col-lg-7 mt-5" id="quizcontainer">
+
+        <div class="row justify-content-center" id="title">
+            <h1>Trivia Game</h1>
+        </div>
+
+        <div class="row justify-content-center mt-5" id="start">
+            <button type="button" class="btn btn-primary" id=>Start</button>
+        </div>
+
+        <div class="row justify-content-center" id="updates">
+            <h2></h2>
+        </div>
+
+        <div class="row justify-content-center" id="stopwatch"></div>
+
+        <div class="row questions">
+
+            <div class="col-8 currentquestion">
+                
+            </div>
+
+            <div class="col-6">
+
+
+                <div class="form-check choices choiceone">
+                    <input class="form-check-input buttonone" type="radio" name="exampleRadios" id="buttonone" value="option1">
+                    <label class="form-check-label" for="exampleRadios1" ><p id="first"></p>
+                
+                    </label>
+                </div>
+                <div class="form-check choices choicetwo">
+                    <input class="form-check-input buttontwo" type="radio" name="exampleRadios" id="buttontwo" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                    <p id="second"></p>
+                    </label>
+                </div>
+                <div class="form-check choices choicethree">
+                    <input class="form-check-input buttonthree" type="radio" name="exampleRadios" id="buttonthree" value="option3">
+                    <label class="form-check-label" for="exampleRadios3">
+                    <p id="third"></p>
+                    </label>
+                </div>
+
+                <div class="col-4">
+                    <input class="btn btn-primary" id="submitbutton" type="submit" value="Submit">
+                </div>
+            </div>
+
+
+        </div>
+
+    
+
+
+    </div>
+
+    <script src="assets/javascript/app.js">
+    
+    </script>
+
+
+</body>

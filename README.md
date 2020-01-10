@@ -1,1 +1,1 @@
-# TriviaGame
+See how many questions you can get right. Questions will automatically be scored after five seconds or you can hit the submit button to go to the next question. After you've answered all the questions, you will be able to see how many you got right. The game will automatically restart.
